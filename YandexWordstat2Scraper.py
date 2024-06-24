@@ -36,7 +36,7 @@ class YandexWordstatScraper():
     options = uc.ChromeOptions()
     options.add_argument("--disable-popup-blocking")
 
-    self.driver = uc.Chrome(options=options, version_main=122)
+    self.driver = uc.Chrome(options=options, version_main=126)
     params = {
         "behavior": "allow",
         "downloadPath": ".tmp"
